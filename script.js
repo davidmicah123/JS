@@ -127,8 +127,43 @@ for(let i = 0; i < proples.length; i++){
 
 console.log(proples);
 
+let p = 7;
+
+while( p <= 10 ){
+    console.log(p)
+    p++;
+}
+
+
+console.log("");
+console.log("");
+console.log("");
+
+
 let i = 0;
 while(i<=10){
     console.log(i);
     i++
 }
+
+
+console.log("");
+
+let z = 0;
+do{
+    console.log(z);
+    z++;
+}while(z<5);
+
+//date objects
+
+let date  =  new Date();
+
+let year = date.getFullYear();
+let month = date.getMonth();
+
+date.setMonth(6);
+
+console.log(date);
+console.log(year);
+console.log(month);
